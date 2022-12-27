@@ -20,6 +20,8 @@ public class ThirdActivity extends AppCompatActivity {
             "Pepperoni Pizza", "Shrimp Pizza", "Smoked Salmon Pizza", "Margherita Pizza"
     };
 
+    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
