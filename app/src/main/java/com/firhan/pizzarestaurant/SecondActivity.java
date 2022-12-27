@@ -19,7 +19,7 @@ public class SecondActivity extends AppCompatActivity {
     TextView store_name;
     String ciwalk = "Cihampelas Walk";
     String bip = "Bandung Indah Plaza";
-    String mim = "Metro Indah Mall";
+    String tsm = "Trans Studio Mall";
     Uri gmmIntentUri;
     Group location_maps;
     Button send_button;
@@ -52,8 +52,8 @@ public class SecondActivity extends AppCompatActivity {
             store_location.setImageResource(R.drawable.bip);
             store_name.setText(receiver_store_name);
             gmmIntentUri = Uri.parse("geo:-6.9085914,107.6086126?z=10&q=bandung+indah+plaza");
-        } else if (Objects.equals(receiver_store_name, mim)) {
-            store_location.setImageResource(R.drawable.mim);
+        } else if (Objects.equals(receiver_store_name, tsm)) {
+            store_location.setImageResource(R.drawable.tsm);
             store_name.setText(receiver_store_name);
             gmmIntentUri = Uri.parse("geo:-6.9421418,107.6565488?z=10&q=metro+indah+mall");
         }
