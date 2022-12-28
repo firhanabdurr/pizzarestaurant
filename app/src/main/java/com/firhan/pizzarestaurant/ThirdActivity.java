@@ -55,7 +55,6 @@ public class ThirdActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(recyclerViewLayoutManager);
         recyclerViewAdapter = new AdapterRecyclerView(context, postsList, display_name, store_name);
         recyclerView.setAdapter(recyclerViewAdapter);
-
         fetchPosts();
     }
 

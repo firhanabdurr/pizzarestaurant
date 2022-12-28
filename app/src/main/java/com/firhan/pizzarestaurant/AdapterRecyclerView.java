@@ -16,7 +16,6 @@ import java.util.List;
 
 public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerView.ViewHolder> {
 
-    //    private String[] SubjectValues;
     private Context context;
     private List<PostMethod> postsList;
     String display_name;
@@ -24,7 +23,6 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
 
     AdapterRecyclerView(Context context1, List<PostMethod> postsList, String display_name1, String store_name1) {
 
-//        SubjectValues = SubjectValues1;
         this.postsList = postsList;
         context = context1;
         display_name = display_name1;

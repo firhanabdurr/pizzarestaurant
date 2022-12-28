@@ -23,7 +23,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Hello, "
+        android:text="Hallo, "
         app:layout_constraintStart_toEndOf="@id/display_picture_id"
         app:layout_constraintTop_toTopOf="@id/display_picture_id"
         app:layout_constraintBottom_toBottomOf="@id/display_picture_id"/>

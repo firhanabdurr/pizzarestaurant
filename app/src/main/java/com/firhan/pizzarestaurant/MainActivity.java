@@ -11,7 +11,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity {
-
     Button send_button;
     EditText send_display_name;
 
@@ -22,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         Spinner spinner = (Spinner) findViewById(R.id.store_spinner);
         // Create an ArrayAdapter using the string array and a default spinner layout
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.location_array, R.layout.location_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.location_array, R.layout.location_item);
         // Specify the layout to use when the list of choices appears
         adapter.setDropDownViewResource(R.layout.location_item);
         spinner.getBackground().setColorFilter(getResources().getColor(R.color.text_main), PorterDuff.Mode.SRC_ATOP);
